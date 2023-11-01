@@ -22,7 +22,7 @@ COPY /App/ /var/www/html/
 RUN composer install --no-dev
 
 # Generate the app key
-RUN php artisan key:generate
+# RUN php artisan key:generate
 
 # Run database migrations nanti kalo udah run containernya
 #RUN php artisan migrate
