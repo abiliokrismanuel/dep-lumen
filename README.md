@@ -2,7 +2,7 @@
 
 1. pindah app lumen 
 ``` bash
-/lumen-dep/<your directory>
+/dep-lumen/<your directory>
 ```
 2. rubah
 ``` yml
